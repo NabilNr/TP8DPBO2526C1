@@ -1,0 +1,32 @@
+<div class="col-lg-6 m-auto">
+  <form method="post" action="index.php">
+    <br><br>
+    <div class="card">
+      <div class="card-header DATA_HEADER_CLASS">
+        <h3 class="text-white text-center">DATA_FORM_TITLE</h3>
+      </div><br>
+      <input type="hidden" name="id" value="DATA_ID">
+
+      <label> NAME: </label>
+      <input type="text" name="name" value="DATA_NAME" class="form-control" required> <br>
+
+      <label> NIDN: </label>
+      <input type="text" name="nidn" value="DATA_NIDN" class="form-control" required> <br>
+
+      <label> PHONE: </label>
+      <input type="text" name="phone" value="DATA_PHONE" class="form-control" required> <br>
+
+      <label> JOIN DATE: </label>
+      <input type="date" name="join_date" value="DATA_JOIN_DATE" class="form-control" required> <br>
+
+      <label> DEPARTMENT: </label>
+      <select name="department_id" class="form-select">
+        <option value="">-- Pilih Departemen --</option>
+        DATA_DEPT_OPTIONS
+      </select> <br>
+
+      <button class="btn btn-success" type="submit" name="DATA_SUBMIT_NAME"> Submit </button><br>
+      <a class="btn btn-info" href="index.php"> Cancel </a><br>
+    </div>
+  </form>
+</div>
