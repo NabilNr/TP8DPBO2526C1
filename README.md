@@ -29,3 +29,7 @@ Aplikasi ini mengimplementasikan pola arsitektur **Model-View-Controller (MVC)**
    - `LecturerView`, `CourseView`, dan `DepartmentView` menerima data array dari Controller, menyusun baris tabel HTML atau opsi `<select>` relasi, lalu menyuntikkannya ke kerangka HTML (`templates/*.html` dan `skin.html`) menggunakan kelas `Template` untuk ditampilkan ke browser.
   
 ## DOKUMENTASI
+
+
+https://github.com/user-attachments/assets/8507d43f-8c77-4460-bde5-967ce1a17bc0
+
